@@ -1,0 +1,86 @@
+/* COLORS */
+
+:root {
+  --primary: hsl(0, 0%, 98%);
+  --medium-grey: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+}
+
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--primary);
+  font-family: "Epilogue", sans-serif;
+  width: 1440px;
+  font-size: 18px;
+}
+
+/* MAIN PAGE */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header-section {
+  display: flex;
+}
+.header-section p {
+  margin-left: 2rem;
+}
+.arrow {
+  margin-top: 4px;
+  margin-left: 5px;
+  height: 10px;
+}
+.register {
+  margin-top: -10px;
+  border: 1px solid var(--almost-black);
+  padding: 10px;
+  border-radius: 10px;
+}
+.login-register {
+  display: flex;
+}
+.login-register p {
+  margin-left: 2rem;
+}
+main {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 1200px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: space-between;
+}
+.text p {
+  line-height: 2rem;
+}
+h1 {
+  margin-top: 60px;
+  font-size: 80px;
+}
+button {
+  background-color: var(--almost-black);
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  width: fit-content;
+}
+.icons img {
+  padding-right: 60px;
+}
+.image-hero img {
+  margin-top: 30px;
+  height: 80vh;
+}
